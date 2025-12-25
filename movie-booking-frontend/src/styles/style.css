@@ -44,7 +44,7 @@ button {
   border-radius: 8px;
 }
 
-.seat {
+/*.seat {
   padding: 10px;
   background: #4caf50;
   color: white;
@@ -53,7 +53,7 @@ button {
 
 .seat.booked {
   background: red;
-}
+}*/
 
 .ticket {
   background: white;
