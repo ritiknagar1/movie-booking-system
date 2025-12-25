@@ -1,0 +1,93 @@
+.shows-row-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.theatre-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.theatre-row:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.theatre-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.theatre-info span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.times-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.time-btn {
+  padding: 8px 14px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.time-btn:hover {
+  background: #45a049;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.filters input[type="text"],
+.filters input[type="date"] {
+  padding: 12px 15px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.filters input:focus {
+  border-color: #f84464;
+  box-shadow: 0 0 10px rgba(248, 68, 100, 0.2);
+}
+
+.filters button {
+  padding: 12px 25px;
+  background: #f84464;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: #d93657;
+}
