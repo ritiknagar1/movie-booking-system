@@ -11,7 +11,7 @@ import TicketPage from "../pages/TicketPage";
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/Login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/movies" element={<Movies />} />
       <Route path="/shows/:movieId" element={<Shows />} />
