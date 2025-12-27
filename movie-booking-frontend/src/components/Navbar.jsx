@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="navbar">
       <h2>🎬 Movie Booking</h2>
       <div>
-        <Link to="/">Login</Link>
+        <Link to="/Login">Login</Link>
         <Link to="/register">Register</Link>
         <Link to="/movies">Movies</Link>
       </div>

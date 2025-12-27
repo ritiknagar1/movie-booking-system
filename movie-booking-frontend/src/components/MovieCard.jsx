@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export default function MovieCard({ movie }) {
+export default function MovieCard({ movie  }) {
   const navigate = useNavigate();
 
   return (
